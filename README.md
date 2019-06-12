@@ -9,11 +9,9 @@ In this lesson, you'll get a high level overview of unsupervised learning, an en
 
 You will be able to:
 
-* Understand and explain the challenges inherent inunsupervised learning
-* Identify real-world use cases forunsupervised learning
-* Compare and Contrast Supervised andunsupervised learning, and identify algorithms that belong to each
-
-
+* Understand and explain the challenges inherent in unsupervised learning
+* Identify real-world use cases for unsupervised learning
+* Compare and Contrast Supervised and unsupervised learning, and identify algorithms that belong to each
 
 
 ## Supervised versus Unsupervised Learning
@@ -34,7 +32,7 @@ There are a few different kinds of clustering algorithms, but they all do the sa
 
 ### Dimensionality Reduction
 
-The most common dimensionality reduction algorithm is Prinicpal Component Analysis (PCA). Dimensionality reduction algorithms work by projecting data from it's current N-dimensional subspace into a smaller subspace, while losing as little information as possible in the process. Dimensionality reduction algorithms still lose _some_ information, but you can quantify this information loss to make an informed decision about the number of dimensions reduced versus the overall information lost. Dimensionality Reduction algorithms are a must-have in any data scientist's toolbox, because they provide a way for us to deal with the **Curse of Dimensionality**. The curse of dimensionality is a key concept as datasets scale. In short, as the number of features in a dataset increases, the processing power and search space required to optimize a given machine learning algorithm explodes exponentially. As this often creates intractable problems that are infeasible to solve computationally, dimensionality reduction techniques such as PCA can be an essential preprocessing technique.
+The most common dimensionality reduction algorithm is Principal Component Analysis (PCA). Dimensionality reduction algorithms work by projecting data from it's current N-dimensional subspace into a smaller subspace, while losing as little information as possible in the process. Dimensionality reduction algorithms still lose _some_ information, but you can quantify this information loss to make an informed decision about the number of dimensions reduced versus the overall information lost. Dimensionality Reduction algorithms are a must-have in any data scientist's toolbox, because they provide a way for us to deal with the **Curse of Dimensionality**. The curse of dimensionality is a key concept as datasets scale. In short, as the number of features in a dataset increases, the processing power and search space required to optimize a given machine learning algorithm explodes exponentially. As this often creates intractable problems that are infeasible to solve computationally, dimensionality reduction techniques such as PCA can be an essential preprocessing technique.
 
 <img src='images/pca.gif'>
 
