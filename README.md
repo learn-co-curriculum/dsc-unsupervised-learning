@@ -30,14 +30,22 @@ There are a few different kinds of clustering algorithms, but they all do the sa
 
 <img src='images/kmeans.gif'>
 
+[gif by David Sheehan](https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/)
+
 ### Dimensionality Reduction
 
 The most common dimensionality reduction algorithm is Principal Component Analysis (PCA). Dimensionality reduction algorithms work by projecting data from it's current N-dimensional subspace into a smaller subspace, while losing as little information as possible in the process. Dimensionality reduction algorithms still lose _some_ information, but you can quantify this information loss to make an informed decision about the number of dimensions reduced versus the overall information lost. Dimensionality Reduction algorithms are a must-have in any data scientist's toolbox, because they provide a way for us to deal with the **Curse of Dimensionality**. The curse of dimensionality is a key concept as datasets scale. In short, as the number of features in a dataset increases, the processing power and search space required to optimize a given machine learning algorithm explodes exponentially. As this often creates intractable problems that are infeasible to solve computationally, dimensionality reduction techniques such as PCA can be an essential preprocessing technique.
 
 <img src='images/pca.gif'>
 
+[gif by amoeba](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues/140579#140579)
 
 ## Summary
 
 In this lesson, you explored the differences between supervised and unsupervised learning. You also learned about the types of problems we can solve with unsupervised learning, including clustering and dimensionality reduction.
 
+
+
+```python
+
+```
